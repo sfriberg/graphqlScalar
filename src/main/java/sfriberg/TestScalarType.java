@@ -29,7 +29,6 @@ public class TestScalarType extends GraphQLScalarType {
 			return parseLiteral(input);
 		}
 
-		@SuppressWarnings("squid:S1166")
 		@Override
 		public String parseLiteral(Object input) {
 			if (input instanceof ObjectValue) {
